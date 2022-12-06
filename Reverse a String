@@ -1,0 +1,11 @@
+<?php
+// PHP program to reverse a string using strrev()
+  
+function Reverse($str){
+    return strrev($str);
+}
+  
+// Input
+$str = "Priyanshu.Kumar.Singh";
+echo Reverse($str)
+?>
